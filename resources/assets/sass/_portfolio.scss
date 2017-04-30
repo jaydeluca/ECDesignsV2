@@ -1,0 +1,54 @@
+.portfolio {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: 840px) {
+    flex-direction: column;
+  }
+
+  .portfolio-item {
+    flex-basis: 33%;
+    padding: 8px;
+  }
+
+}
+
+.portfolio-modal {
+
+  padding: 0;
+
+  max-width: 1100px;
+  background: white;
+  display: flex !important;
+
+  .portfolio-asset {
+    padding: 50px;
+    flex: 2;
+
+  }
+
+  .portfolio-meta {
+    flex: 1;
+    width: 500px;
+    background: $color-portfolio-meta;
+    color: white;
+    padding: 15px;
+
+    .portfolio-title {
+      text-transform: uppercase;
+      font-weight: 700;
+      border-bottom: 1px solid white;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+
+  }
+
+}
+
+.modal-card {
+  @media (min-width: 769px) {
+    width: 900px;
+  }
+}

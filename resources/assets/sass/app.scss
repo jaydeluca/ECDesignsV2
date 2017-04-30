@@ -9,6 +9,8 @@
 // Bootstrap
 @import "node_modules/bulma/bulma.sass";
 
+@import "portfolio";
+
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -77,23 +79,5 @@
     font-weight: 700;
     font-size: 55px;
   }
-
-}
-
-.portfolio {
-
-  display: flex;
-  flex-wrap: wrap;
-
-  @media (max-width: 840px) {
-    flex-direction: column;
-  }
-
-  .portfolio-item {
-    flex-basis: 33%;
-    padding: 8px;
-
-  }
-
 
 }

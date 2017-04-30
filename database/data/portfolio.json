@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Guinness Advertisement",
+    "thumbnail": "images/v1/2.1-guinness.jpg",
+    "image": "images/v1/2.1-guinness.jpg",
+    "description": "Lorem ipsum something about guinness ads blah blah blah"
+  },
+  {
+    "name": "Belichick Ad Piece",
+    "thumbnail": "images/v1/4.1-belichick.jpg",
+    "image": "images/v1/4.1-belichick.jpg",
+    "description": "whatever text you want here"
+  },
+  {
+    "name": "Veridium Ad Piece",
+    "thumbnail": "images/v1/3.1-veridium.jpg",
+    "image": "images/v1/3.1-veridium.jpg",
+    "description": "whatever text you want here"
+  }
+]

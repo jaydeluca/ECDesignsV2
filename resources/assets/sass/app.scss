@@ -1,9 +1,99 @@
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700,700i');
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "node_modules/bulma/bulma.sass";
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (min-width: 769px) {
+  .nav-toggle {
+    display: block;
+  }
+}
+
+
+.nav {
+  padding: 10px 20px;
+  height: 135px;
+}
+
+.logo {
+  img {
+    width: 166px;
+    height: auto;
+    max-height: none;
+  }
+}
+
+.nav-left, .nav-right {
+  //align-items: center;
+}
+
+.header-text {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+  font-size: 25px;
+}
+
+
+.nav-toggle span {
+  height: 2px;
+  width: 20px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    flex: 1;
+  }
+
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}
+
+.heading {
+  text-align: center;
+
+  .title {
+    font-weight: 700;
+    font-size: 55px;
+  }
+
+}
+
+.portfolio {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: 840px) {
+    flex-direction: column;
+  }
+
+  .portfolio-item {
+    flex-basis: 33%;
+    padding: 8px;
+
+  }
+
+
+}

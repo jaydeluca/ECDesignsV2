@@ -15,5 +15,33 @@
 
   }
 
+  .div-2 {
+    background-image: url('/images/1-Home/2.1-guinness.jpg');
+    background-size: fill;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      height: 65%;
+      p {
+        text-transform: uppercase;
+        text-align: right;
+        color: white;
+        line-height: normal;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+    }
+
+  }
+
 
 }

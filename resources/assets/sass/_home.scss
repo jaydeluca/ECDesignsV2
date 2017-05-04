@@ -1,10 +1,23 @@
 
+@mixin contentFont() {
+  text-transform: uppercase;
+  color: white;
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@mixin backgroundInfo($image) {
+  background-size: cover;
+  height: 100vh;
+  background-image: url($image);
+}
+
 .home {
 
+  // Starting point
   .div-1 {
-    background-image: url('/images/1-Home/1.1-background.jpg');
-    background-size: fill;
-    height: 100vh;
+    @include backgroundInfo('/images/1-Home/1.1-background.jpg');
 
     &--content {
       display: flex;
@@ -15,8 +28,76 @@
 
   }
 
+  // Guinness
   .div-2 {
-    background-image: url('/images/1-Home/2.1-guinness.jpg');
+    @include backgroundInfo('/images/1-Home/2.1-guinness.jpg');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      height: 65%;
+      padding-right: 50px;
+      p {
+        @include contentFont();
+        text-align: right;
+        font-size: 25px;
+      }
+    }
+  }
+
+  // Veridium
+  .div-3 {
+    @include backgroundInfo('/images/1-Home/3.1-veridium.jpg');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      height: 65%;
+      padding-left: 150px;
+      p {
+        @include contentFont();
+        text-align: left;
+        font-size: 33pt;
+      }
+    }
+  }
+
+  // Belichick
+  .div-4 {
+    @include backgroundInfo('/images/1-Home/4.1-belichick.jpg');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      height: 65%;
+      padding-right: 100px;
+      p {
+        @include contentFont();
+        text-align: right;
+        letter-spacing: 1px;
+        font-size: 29px;
+      }
+    }
+  }
+
+  // Contact
+  .div-contact {
+    @include backgroundInfo('/images/1-Home/5.1-contact-bg.jpg');
     background-size: fill;
     height: 100vh;
     display: flex;
@@ -29,18 +110,31 @@
       justify-content: center;
       align-items: flex-end;
       height: 65%;
+      padding-right: 100px;
       p {
-        text-transform: uppercase;
+
+        a {
+          color: black;
+        }
+
+        color: black;
         text-align: right;
-        color: white;
-        line-height: normal;
-        font-size: 25px;
-        font-weight: 700;
-        margin-bottom: 20px;
+        letter-spacing: 1px;
+        font-size: 20px;
+        padding: 10px;
       }
-
+      .name {
+        p {
+          font-size: 29px;
+        }
+        padding: 10px 0;
+        text-transform: capitalize;
+        font-weight: 700;
+        border-bottom: 1px solid black;
+        width: 400px;
+        margin-bottom: 10px;
+      }
     }
-
   }
 
 

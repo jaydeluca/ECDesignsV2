@@ -1,0 +1,15 @@
+.c-btn {
+
+  text-transform: uppercase;
+  padding: 10px 40px;
+  color: white;
+  border: 2px solid white;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  &:hover {
+    background: $color-blue;
+    color: white;
+  }
+
+}

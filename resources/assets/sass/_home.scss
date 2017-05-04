@@ -1,0 +1,19 @@
+
+.home {
+
+  .div-1 {
+    background-image: url('/images/1-Home/1.1-background.jpg');
+    background-size: fill;
+    height: 100vh;
+
+    &--content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 65%;
+    }
+
+  }
+
+
+}

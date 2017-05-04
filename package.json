@@ -18,6 +18,7 @@
     "vue": "^2.1.10"
   },
   "dependencies": {
-    "bulma": "^0.4.1"
+    "bulma": "^0.4.1",
+    "scrollmagic": "^2.0.5"
   }
 }

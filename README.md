@@ -14,11 +14,7 @@ Using SQLite for this one:
 touch database/database.sqlite
 ```
 
-Set ENV:
-```
-DB_CONNECTION=sqlite
-DB_DATABASE=/database/database.sqlite
-```
+Remove the rest of the DB variables from the .env file, configuration is hard coded *(unless you'd like to use mysql instead, in which case go nuts)*
 
 
 ## Installing

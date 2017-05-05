@@ -5,7 +5,7 @@
     <div class="section div-1">
         @include('layouts.nav')
         <div class="div-1--content">
-            <a class="c-btn">
+            <a class="c-btn" href="/portfolio">
                 View Full Portfolio
             </a>
         </div>

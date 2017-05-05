@@ -8,7 +8,7 @@
     </div>
 
     <div class="header-center">
-        <a class="nav-item logo" href="#">
+        <a class="nav-item logo" href="/">
             <img src="{{ asset('images/v1/1.3-logo.png') }}">
         </a>
     </div>

@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 41);
+/******/ 	return __webpack_require__(__webpack_require__.s = 40);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -471,7 +471,7 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(34)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(33)))
 
 /***/ }),
 /* 2 */
@@ -834,7 +834,7 @@ module.exports = g;
 
 __webpack_require__(31);
 
-window.Vue = __webpack_require__(39);
+window.Vue = __webpack_require__(38);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -842,7 +842,7 @@ window.Vue = __webpack_require__(39);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('portfolio', __webpack_require__(35));
+Vue.component('portfolio', __webpack_require__(34));
 
 var app = new Vue({
   el: '#app'
@@ -1746,7 +1746,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
   components: {
-    'portfolio-item': __webpack_require__(36)
+    'portfolio-item': __webpack_require__(35)
   },
 
   created: function created() {
@@ -1802,7 +1802,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-window._ = __webpack_require__(33);
+window._ = __webpack_require__(32);
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
@@ -1816,8 +1816,7 @@ window.axios.defaults.headers.common['X-CSRF-TOKEN'] = window.Laravel.csrfToken;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
-/* 32 */,
-/* 33 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -18906,10 +18905,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), __webpack_require__(40)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), __webpack_require__(39)(module)))
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -19099,14 +19098,14 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 35 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(7)(
   /* script */
   __webpack_require__(29),
   /* template */
-  __webpack_require__(38),
+  __webpack_require__(37),
   /* scopeId */
   null,
   /* cssModules */
@@ -19133,14 +19132,14 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(7)(
   /* script */
   __webpack_require__(30),
   /* template */
-  __webpack_require__(37),
+  __webpack_require__(36),
   /* scopeId */
   null,
   /* cssModules */
@@ -19167,7 +19166,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -19194,7 +19193,7 @@ if (false) {
 }
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -19251,7 +19250,7 @@ if (false) {
 }
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28878,7 +28877,7 @@ module.exports = Vue$3;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -28906,7 +28905,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(9);

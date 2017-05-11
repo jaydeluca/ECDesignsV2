@@ -46,15 +46,15 @@
         </div>
     </div>
 
-    <div class="section div-contact">
+    <div class="section div-contact" id="contact">
         <div class="div-contact--content">
-            <img src="images/1-Home/5.2-c-logo.png">
+            {{--<img src="images/1-Home/5.2-c-logo.png">--}}
             <div class="name"><p>Eric Silva</p></div>
-            <img src="images/1-Home/5.3-c-phone.png">
+            {{--<img src="images/1-Home/5.3-c-phone.png">--}}
             <p>508.431.3920</p>
-            <img src="images/1-Home/5.4-c-email.png">
+            {{--<img src="images/1-Home/5.4-c-email.png">--}}
             <p><a href="mailto:ecthedesignguy@gmail.com">ecthedesignguy@gmail.com</a></p>
-            <img src="images/1-Home/5.5-c-location.png">
+            {{--<img src="images/1-Home/5.5-c-location.png">--}}
             <p>North Attleboro, MA 02760</p>
 
         </div>

@@ -14,6 +14,6 @@
     </div>
 
     <div class="header-right">
-        <p class="header-text">Contact</p>
+        <a class="header-text" href="#contact">Contact</a>
     </div>
 </nav>

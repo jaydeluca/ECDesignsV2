@@ -10,7 +10,11 @@
 @mixin backgroundInfo($image) {
   background-size: cover;
   height: 100vh;
+
   background-image: url($image);
+  background-repeat: no-repeat;
+  background-position: center;
+  //background-position-y: 10px;
   //background-attachment: fixed;
 }
 
@@ -53,7 +57,7 @@
 
   // Veridium
   .div-3 {
-    @include backgroundInfo('/images/1-Home/3.1-veridium.jpg');
+    @include backgroundInfo('/images/v2/1-new-veridium.jpg');
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -75,7 +79,7 @@
 
   // Belichick
   .div-4 {
-    @include backgroundInfo('/images/1-Home/4.1-belichick.jpg');
+    @include backgroundInfo('/images/v2/2-new-belichick.jpg');
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -98,9 +102,7 @@
 
   // Contact
   .div-contact {
-    @include backgroundInfo('/images/1-Home/5.1-contact-bg.jpg');
-    background-size: fill;
-    height: 100vh;
+    @include backgroundInfo('/images/v2/3-new-contact.jpg');
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -109,17 +111,16 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-end;
-      height: 65%;
-      padding-right: 100px;
+      background-color: $color-blue;
+      padding: 50px;
+      align-items: center;
       p {
 
         a {
-          color: black;
+          color: white;
         }
 
-        color: black;
-        text-align: right;
+        color: white;
         letter-spacing: 1px;
         font-size: 20px;
         padding: 10px;
@@ -131,8 +132,6 @@
         padding: 10px 0;
         text-transform: capitalize;
         font-weight: 700;
-        border-bottom: 1px solid black;
-        width: 400px;
         margin-bottom: 10px;
       }
     }

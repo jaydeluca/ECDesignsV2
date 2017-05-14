@@ -10,7 +10,6 @@
 @mixin backgroundInfo($image) {
   background-size: cover;
   height: 100vh;
-
   background-image: url($image);
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +21,7 @@
 
   // Starting point
   .div-1 {
-    @include backgroundInfo('/images/1-Home/1.1-background.jpg');
+    @include backgroundInfo('/images/v3/div1bg.jpg');
 
     &--content {
       display: flex;
@@ -102,16 +101,16 @@
 
   // Contact
   .div-contact {
-    @include backgroundInfo('/images/v2/3-new-contact.jpg');
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: $color-blue;
 
     &--content {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background-color: $color-blue;
       padding: 50px;
       align-items: center;
       p {

@@ -14,14 +14,18 @@
   background-repeat: no-repeat;
   background-position: center;
   //background-position-y: 10px;
-  //background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .home {
 
   // Starting point
   .div-1 {
-    @include backgroundInfo('/images/v3/div1bg.jpg');
+    @include backgroundInfo('/images/background.jpg');
+
+    &.section {
+      padding: 15px;
+    }
 
     &--content {
       display: flex;

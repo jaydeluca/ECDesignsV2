@@ -1,10 +1,10 @@
 <nav class="header">
     <div class="header-left">
-        <label class="nav-toggle" for="nav-toggle-state">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
+        {{--<label class="nav-toggle" for="nav-toggle-state">--}}
+            {{--<span></span>--}}
+            {{--<span></span>--}}
+            {{--<span></span>--}}
+        {{--</label>--}}
     </div>
 
     <div class="header-center">

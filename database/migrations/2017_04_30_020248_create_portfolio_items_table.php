@@ -16,8 +16,10 @@ class CreatePortfolioItemsTable extends Migration
         Schema::create('portfolio_items', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('type')->default('image');
+            $table->string('url')->nullable();
             $table->string('thumbnail');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->string('description')->nullable();
             $table->timestamps();
         });

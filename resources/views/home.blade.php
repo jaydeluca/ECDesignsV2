@@ -1,6 +1,6 @@
 @include('layouts.head')
 
-<div id="fullpage" class="home">
+<div class="home">
 
     <div class="section div-1">
         @include('layouts.nav')

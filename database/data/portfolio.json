@@ -2,68 +2,59 @@
   {
     "name": "Guinness Advertisement",
     "thumbnail": "images/v3/Thumbnails/1-t-guinness.jpg",
-    "image": "images/v3/1-guinness.jpg",
-    "description": "Lorem ipsum something about guinness ads blah blah blah"
+    "image": "images/v3/1-guinness.jpg"
   },
   {
     "name": "Veridium Ad Piece",
     "thumbnail": "images/v3/Thumbnails/2-t-veridium.jpg",
-    "image": "images/v3/2-veridium.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/2-veridium.jpg"
   },
   {
     "name": "4 Fingers",
     "thumbnail": "images/v3/Thumbnails/3-t-4fingers.jpg",
-    "image": "images/v3/3-4fingers.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/3-4fingers.jpg"
   },
   {
     "name": "Global Money",
     "thumbnail": "images/v3/Thumbnails/4-t-global-money.jpg",
-    "image": "images/v3/3-4fingers.jpg",
-    "description": "whatever text you want here"
+    "type": "video",
+    "url": "https://player.vimeo.com/video/217507427"
   },
   {
     "name": "Faces",
     "thumbnail": "images/v3/Thumbnails/5-t-faces.jpg",
-    "image": "images/v3/5-faces.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/5-faces.jpg"
   },
   {
     "name": "Belichick",
     "thumbnail": "images/v3/Thumbnails/6-t-belichick.jpg",
-    "image": "images/v3/6-belichick.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/6-belichick.jpg"
   },
   {
     "name": "Windex",
     "thumbnail": "images/v3/Thumbnails/7-t-windex.jpg",
-    "image": "images/v3/7-windex.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/7-windex.jpg"
   },
   {
     "name": "LWN",
     "thumbnail": "images/v3/Thumbnails/8-t-lwn.jpg",
-    "image": "images/v3/8-lwn.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/8-lwn.jpg"
   },
   {
     "name": "Barstool",
     "thumbnail": "images/v3/Thumbnails/9-t-barstool.jpg",
-    "image": "images/v3/9-barstool.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/9-barstool.jpg"
   },
   {
     "name": "Patriots",
     "thumbnail": "images/v3/Thumbnails/10-t-patriots.jpg",
-    "image": "images/v3/10-patriots.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/10-patriots.jpg"
   },
   {
     "name": "Atlas",
     "thumbnail": "images/v3/Thumbnails/11-t-atlas.jpg",
-    "image": "images/v3/10-patriots.jpg",
-    "description": "whatever text you want here"
+    "type": "video",
+    "url": "https://player.vimeo.com/video/217507256"
   },
   {
     "name": "DigDat",
@@ -74,19 +65,16 @@
   {
     "name": "Opiates Infographic",
     "thumbnail": "images/v3/Thumbnails/13-t-opiates.jpg",
-    "image": "images/v3/13-opiates.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/13-opiates.jpg"
   },
   {
     "name": "Elasticare",
     "thumbnail": "images/v3/Thumbnails/14-t-elasticare.jpg",
-    "image": "images/v3/14-elasticare.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/14-elasticare.jpg"
   },
   {
     "name": "Truck Day",
     "thumbnail": "images/v3/Thumbnails/15-t-truck-day.jpg",
-    "image": "images/v3/15-truck-day.jpg",
-    "description": "whatever text you want here"
+    "image": "images/v3/15-truck-day.jpg"
   }
 ]

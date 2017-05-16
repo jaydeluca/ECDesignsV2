@@ -2,7 +2,12 @@
 
     <section class="modal-card-body portfolio-modal">
         <div class="portfolio-asset">
-            <img :src="item.image">
+            <template v-if="item.type === 'image'">
+                <img :src="item.image">
+            </template>
+            <template v-if="item.type === 'video'">
+                <iframe :src="item.url" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </template>
         </div>
         <div class="portfolio-meta">
             <p class="portfolio-title">{{ item.name }}</p>

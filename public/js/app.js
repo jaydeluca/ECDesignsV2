@@ -1789,6 +1789,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 
@@ -19174,11 +19179,21 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "modal-card-body portfolio-modal"
   }, [_c('div', {
     staticClass: "portfolio-asset"
-  }, [_c('img', {
+  }, [(_vm.item.type === 'image') ? [_c('img', {
     attrs: {
       "src": _vm.item.image
     }
-  })]), _vm._v(" "), _c('div', {
+  })] : _vm._e(), _vm._v(" "), (_vm.item.type === 'video') ? [_c('iframe', {
+    attrs: {
+      "src": _vm.item.url,
+      "width": "640",
+      "height": "360",
+      "frameborder": "0",
+      "webkitallowfullscreen": "",
+      "mozallowfullscreen": "",
+      "allowfullscreen": ""
+    }
+  })] : _vm._e()], 2), _vm._v(" "), _c('div', {
     staticClass: "portfolio-meta"
   }, [_c('p', {
     staticClass: "portfolio-title"

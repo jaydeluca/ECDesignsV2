@@ -20,13 +20,7 @@ class PortfolioItemSeeder extends Seeder
         PortfolioItem::truncate();
 
         foreach($portfolioItems as $item) {
-            PortfolioItem::create([
-                'name' => $item->name,
-                'thumbnail' => $item->thumbnail,
-                'image' => $item->image,
-                'description' => $item->description
-            ]);
-
+            PortfolioItem::create(collect($item)->toArray());
         }
 
     }

@@ -14,4 +14,10 @@
     border: 2px solid transparent;
   }
 
+  @media (max-width: 600px) {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 20px;
+  }
+
 }

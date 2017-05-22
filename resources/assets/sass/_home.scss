@@ -1,4 +1,6 @@
 
+$breakpoint: 800px;
+
 @mixin contentFont() {
   text-transform: uppercase;
   color: white;
@@ -12,9 +14,6 @@
   height: 100vh;
   background-image: url($image);
   background-repeat: no-repeat;
-  background-position: center;
-  //background-position-y: 10px;
-  background-attachment: fixed;
 }
 
 .home {
@@ -23,15 +22,73 @@
   .div-1 {
     @include backgroundInfo('/images/background.jpg');
 
+    .alt-text {
+      color: white;
+    }
+
     &.section {
-      padding: 15px;
+      padding: 25px;
+    }
+
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      //margin-top: 50px;
+
+      .nav-section {
+
+        flex-grow: 1;
+
+        &.nav-center {
+          position: absolute;
+          left: 50%;
+          right: 50%;
+        }
+      }
+
+      .nav-side {
+        display: flex;
+        justify-content: flex-end;
+
+        @media (max-width: $breakpoint) {
+          a {
+            visibility: hidden;
+          }
+        }
+      }
+
     }
 
     &--content {
       display: flex;
       justify-content: center;
+      flex-direction: column;
       align-items: center;
-      height: 65%;
+      height: 100%;
+
+
+    }
+
+    &--main {
+
+      display: flex;
+      flex-grow: 1;
+      align-items: flex-end;
+      padding-bottom: 95px;
+    }
+
+    &--bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 100px;
+
+      @media (min-width: 801px) {
+        a {
+          visibility: hidden;
+        }
+      }
+
     }
 
   }
@@ -39,9 +96,14 @@
   // Guinness
   .div-2 {
     @include backgroundInfo('/images/1-Home/2.1-guinness.jpg');
+
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    @media (max-width: $breakpoint) {
+      background-position-x: -179px;
+    }
 
     &--content {
       display: flex;
@@ -50,10 +112,29 @@
       align-items: flex-end;
       height: 65%;
       padding-right: 50px;
+
+      @media (max-width: $breakpoint) {
+        align-items: center;
+        height: 90%;
+        padding-bottom: 200px;
+        justify-content: flex-start;
+        padding-right: 0;
+
+        a {
+          margin-top: 200px;
+        }
+
+      }
       p {
         @include contentFont();
         text-align: right;
         font-size: 25px;
+
+        @media (max-width: $breakpoint) {
+          font-size: 29px;
+          text-align: center;
+        }
+
       }
     }
   }
@@ -61,6 +142,11 @@
   // Veridium
   .div-3 {
     @include backgroundInfo('/images/v2/1-new-veridium.jpg');
+
+    @media (max-width: $breakpoint) {
+      background-position-x: -236px;
+    }
+
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -72,10 +158,23 @@
       align-items: flex-start;
       height: 65%;
       padding-left: 150px;
+
+
+      @media (max-width: $breakpoint) {
+        padding-left: 0;
+        align-items: center;
+      }
+
       p {
         @include contentFont();
         text-align: left;
         font-size: 33pt;
+
+        @media (max-width: $breakpoint) {
+          text-align: center;
+          font-size: 27pt;
+        }
+
       }
     }
   }
@@ -87,6 +186,10 @@
     justify-content: center;
     flex-direction: column;
 
+    @media (max-width: $breakpoint) {
+      background-position-x: -335px;
+    }
+
     &--content {
       display: flex;
       flex-direction: column;
@@ -94,11 +197,21 @@
       align-items: flex-end;
       height: 65%;
       padding-right: 100px;
+
+      @media (max-width: $breakpoint) {
+        padding-right: 0;
+        align-items: center;
+      }
+
       p {
         @include contentFont();
         text-align: right;
         letter-spacing: 1px;
         font-size: 29px;
+        @media (max-width: $breakpoint) {
+          text-align: center;
+          font-size: 25px;
+        }
       }
     }
   }

@@ -1,14 +1,40 @@
 @include('layouts.head')
 
-<div class="home">
+<div class="home" id="fullpage">
 
     <div class="section div-1">
-        @include('layouts.nav')
-        <div class="div-1--content">
-            <a class="c-btn" href="/portfolio">
-                View Full Portfolio
-            </a>
+
+        <div class="nav-header">
+
+            <div class="nav-section nav-side">
+            </div>
+
+            <div class="nav-section nav-center">
+                <a class="nav-item logo" href="/">
+                    <img src="{{ asset('images/v1/1.3-logo.png') }}">
+                </a>
+            </div>
+
+            <div class="nav-section nav-side">
+                <a class="header-text" href="#contact">Contact</a>
+            </div>
         </div>
+
+        <div class="div-1--content">
+
+            <div class="div-1--main">
+                <a class="c-btn c-btn-ctr" href="/portfolio">
+                    View Full Portfolio
+                </a>
+            </div>
+
+            <div class="div-1--bottom">
+                <a class="header-text alt-text" href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+
     </div>
 
     <div class="section div-2">
@@ -65,14 +91,14 @@
 //  $(document).ready(function() {
 //    $('#fullpage').fullpage({
 //      //Scrolling
-//      css3: true,
-//      scrollingSpeed: 700,
+////      css3: true,
+////      scrollingSpeed: 700,
 //      autoScrolling: true,
 //      fitToSection: true,
 //      fitToSectionDelay: 1000,
 //      scrollBar: false,
-//      easing: 'easeInOutCubic',
-//      easingcss3: 'ease',
+////      easing: 'easeInOutCubic',
+////      easingcss3: 'ease',
 //      loopBottom: false,
 //      loopTop: false,
 //      loopHorizontal: true,
@@ -96,7 +122,7 @@
 //
 //      //Design
 //      controlArrows: true,
-//      parallax: true,
+////      parallax: true,
 //    });
 //  });
 </script>

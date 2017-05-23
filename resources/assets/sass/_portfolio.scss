@@ -1,3 +1,6 @@
+
+$breakpoint: 900px;
+
 .portfolio {
 
   display: flex;
@@ -23,6 +26,11 @@
   background: white;
   display: flex !important;
 
+
+  @media (max-width: $breakpoint) {
+    width: 90%;
+  }
+
   .portfolio-asset {
     padding: 50px;
     flex: 2;
@@ -35,6 +43,10 @@
     background: $color-portfolio-meta;
     color: white;
     padding: 15px;
+
+    @media (max-width: $breakpoint) {
+      display: none;
+    }
 
     .portfolio-title {
       text-transform: uppercase;

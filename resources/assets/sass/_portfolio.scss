@@ -1,4 +1,3 @@
-
 $breakpoint: 900px;
 
 .portfolio {
@@ -28,11 +27,15 @@ $breakpoint: 900px;
 
 
   @media (max-width: $breakpoint) {
-    width: 90%;
+    width: 95%;
   }
 
   .portfolio-asset {
     padding: 50px;
+
+    @media (max-width: $breakpoint) {
+      padding: 10px;
+    }
     flex: 2;
 
   }
@@ -64,4 +67,19 @@ $breakpoint: 900px;
   @media (min-width: 769px) {
     width: 900px;
   }
+}
+
+.heading {
+  text-align: center;
+
+  .title {
+    font-weight: 700;
+    font-size: 55px;
+
+    @media (max-width: 700px) {
+      font-size: 40px;
+    }
+
+  }
+
 }

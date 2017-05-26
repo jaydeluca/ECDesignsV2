@@ -27,7 +27,8 @@ $breakpoint: 900px;
 
 
   @media (max-width: $breakpoint) {
-    width: 95%;
+    width: 85%;
+    margin: auto;
   }
 
   .portfolio-asset {

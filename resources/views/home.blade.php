@@ -55,7 +55,7 @@
                 Veridium
             </p>
             <a class="c-btn">
-                View Branding Package
+                View Branding
             </a>
         </div>
     </div>

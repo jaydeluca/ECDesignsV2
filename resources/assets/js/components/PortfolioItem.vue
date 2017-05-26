@@ -9,10 +9,10 @@
                 <iframe :src="item.url" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </template>
         </div>
-        <div class="portfolio-meta">
-            <p class="portfolio-title">{{ item.name }}</p>
-            <p>{{ item.description }}</p>
-        </div>
+        <!--<div class="portfolio-meta">-->
+            <!--<p class="portfolio-title">{{ item.name }}</p>-->
+            <!--<p>{{ item.description }}</p>-->
+        <!--</div>-->
 
     </section>
 

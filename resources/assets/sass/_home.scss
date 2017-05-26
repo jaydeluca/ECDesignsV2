@@ -27,6 +27,10 @@ $breakpoint: 800px;
       font-size: 22px;
     }
 
+    .c-btn {
+      font-size: 16px;
+    }
+
     &.section {
       padding: 25px;
     }
@@ -66,16 +70,18 @@ $breakpoint: 800px;
       flex-direction: column;
       align-items: center;
       height: 100%;
-
-
     }
 
     &--main {
-
       display: flex;
       flex-grow: 1;
       align-items: flex-end;
-      padding-bottom: 95px;
+      padding-bottom: 150px;
+
+      @media (max-width: 600px) {
+        padding-bottom: 100px;
+      }
+
     }
 
     &--bottom {
@@ -129,7 +135,7 @@ $breakpoint: 800px;
       p {
         @include contentFont();
         text-align: right;
-        font-size: 25px;
+        font-size: 34px;
 
         @media (max-width: $breakpoint) {
           font-size: 29px;
@@ -169,7 +175,7 @@ $breakpoint: 800px;
       p {
         @include contentFont();
         text-align: left;
-        font-size: 33pt;
+        font-size: 34px;
 
         @media (max-width: $breakpoint) {
           text-align: center;

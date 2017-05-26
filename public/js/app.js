@@ -19193,11 +19193,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "mozallowfullscreen": "",
       "allowfullscreen": ""
     }
-  })] : _vm._e()], 2), _vm._v(" "), _c('div', {
-    staticClass: "portfolio-meta"
-  }, [_c('p', {
-    staticClass: "portfolio-title"
-  }, [_vm._v(_vm._s(_vm.item.name))]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.item.description))])])])
+  })] : _vm._e()], 2)])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {

@@ -32,7 +32,7 @@
 
 .logo {
   img {
-    width: 166px;
+    width: 200px;
     height: auto;
     max-height: none;
   }
@@ -50,7 +50,14 @@
 }
 
 
+.nav-header {
 
+  padding-top: 25px;
+  @media (max-width: 600px) {
+    padding-top: 2px;
+  }
+
+}
 
 .nav-toggle span {
   height: 2px;

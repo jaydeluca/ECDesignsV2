@@ -1,19 +1,17 @@
-<nav class="header">
-    <div class="header-left">
-        {{--<label class="nav-toggle" for="nav-toggle-state">--}}
-            {{--<span></span>--}}
-            {{--<span></span>--}}
-            {{--<span></span>--}}
-        {{--</label>--}}
+<div class="nav-header">
+
+    <div class="nav-section nav-side">
     </div>
 
-    <div class="header-center">
+    <div class="nav-section nav-center">
         <a class="nav-item logo" href="/">
             <img src="{{ asset('images/v1/1.3-logo.png') }}">
         </a>
     </div>
 
-    <div class="header-right">
-        <a class="header-text" href="#contact">Contact</a>
+    <div class="nav-section nav-side">
+        {{--<a class="header-text" href="#contact">Contact</a>--}}
     </div>
-</nav>
+</div>
+
+

@@ -1,6 +1,6 @@
 @include('layouts.head')
 
-<div class="home" id="fullpage">
+<div class="home" id="app">
 
     <div class="section div-1">
 
@@ -29,7 +29,7 @@
                 Guinness<br>
                 By The Numbers
             </p>
-            <a class="c-btn">
+            <a class="c-btn" @click="homePageModal('http://ec2.dev/images/portfolio/1-guinness.jpg')">
                 View Infographic
             </a>
         </div>
@@ -40,7 +40,7 @@
             <p>
                 Veridium
             </p>
-            <a class="c-btn">
+            <a class="c-btn" @click="homePageModal('http://ec2.dev/images/portfolio/2-veridium.jpg')">
                 View Branding
             </a>
         </div>
@@ -52,7 +52,7 @@
                 Belichick's Patriots<br>
                 VS. The NFL
             </p>
-            <a class="c-btn">
+            <a class="c-btn" @click="homePageModal('http://ec2.dev/images/portfolio/6-belichick.jpg')">
                 View Infographic
             </a>
         </div>
@@ -71,6 +71,12 @@
 
         </div>
     </div>
+
+    <modal :show-modal="showModal" @close-modal="closeModal">
+        <div>
+            <img :src="portfolioURL">
+        </div>
+    </modal>
 
 </div>
 <script>

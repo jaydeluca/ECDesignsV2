@@ -20,7 +20,7 @@ $breakpoint: 800px;
 
   // Starting point
   .div-1 {
-    @include backgroundInfo('/images/background.jpg');
+    @include backgroundInfo('/images/background-min.jpg');
 
     .alt-text {
       color: white;
@@ -91,7 +91,7 @@ $breakpoint: 800px;
 
   // Guinness
   .div-2 {
-    @include backgroundInfo('/images/1-Home/2.1-guinness.jpg');
+    @include backgroundInfo('/images/guinness-min.jpg');
 
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@ $breakpoint: 800px;
 
   // Veridium
   .div-3 {
-    @include backgroundInfo('/images/v2/1-new-veridium.jpg');
+    @include backgroundInfo('/images/veridium-min.jpg');
 
     @media (max-width: $breakpoint) {
       background-position-x: -236px;
@@ -177,7 +177,7 @@ $breakpoint: 800px;
 
   // Belichick
   .div-4 {
-    @include backgroundInfo('/images/v2/2-new-belichick.jpg');
+    @include backgroundInfo('/images/belichick-min.jpg');
     display: flex;
     justify-content: center;
     flex-direction: column;

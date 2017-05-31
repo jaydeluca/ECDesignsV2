@@ -27,13 +27,16 @@ $breakpoint: 900px;
 
 
   @media (max-width: $breakpoint) {
-    width: 85%;
+    //width: 85%;
     margin: auto;
   }
 
   .portfolio-asset {
     //padding: 50px;
 
+    img {
+      max-height: 90%;
+    }
     @media (max-width: $breakpoint) {
       padding: 10px;
     }
@@ -66,7 +69,7 @@ $breakpoint: 900px;
 
 .modal-card {
   @media (min-width: 769px) {
-    width: 900px;
+    max-width: 900px;
   }
 }
 

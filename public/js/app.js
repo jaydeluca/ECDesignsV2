@@ -825,7 +825,6 @@ module.exports = g;
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -843,9 +842,30 @@ window.Vue = __webpack_require__(38);
  */
 
 Vue.component('portfolio', __webpack_require__(34));
+Vue.component('modal', __webpack_require__(45));
 
 var app = new Vue({
-  el: '#app'
+
+  el: '#app',
+
+  data: function data() {
+    return {
+      showModal: false,
+      portfolioURL: ''
+    };
+  },
+
+
+  methods: {
+    closeModal: function closeModal() {
+      this.showModal = false;
+    },
+    homePageModal: function homePageModal(imageUrl) {
+      this.showModal = true;
+      this.portfolioURL = imageUrl;
+    }
+  }
+
 });
 
 /***/ }),
@@ -1725,10 +1745,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1746,7 +1762,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
   components: {
-    'portfolio-item': __webpack_require__(35)
+    'portfolio-item': __webpack_require__(35),
+    'modal': __webpack_require__(45)
   },
 
   created: function created() {
@@ -1774,8 +1791,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
 //
 //
 //
@@ -19175,11 +19190,7 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('section', {
-    staticClass: "modal-card-body portfolio-modal"
-  }, [_c('div', {
-    staticClass: "portfolio-asset"
-  }, [(_vm.item.type === 'image') ? [_c('img', {
+  return _c('div', [(_vm.item.type === 'image') ? [_c('img', {
     attrs: {
       "src": _vm.item.image
     }
@@ -19193,7 +19204,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "mozallowfullscreen": "",
       "allowfullscreen": ""
     }
-  })] : _vm._e()], 2)])
+  })] : _vm._e()], 2)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -19225,32 +19236,20 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         "src": item.thumbnail
       }
     })])]
-  })], 2) : _vm._e()]), _vm._v(" "), _c('div', {
-    staticClass: "modal",
-    class: {
-      'is-active': _vm.showModal
-    }
-  }, [_c('div', {
-    staticClass: "modal-background",
+  })], 2) : _vm._e()]), _vm._v(" "), _c('modal', {
+    attrs: {
+      "show-modal": _vm.showModal
+    },
     on: {
-      "click": function($event) {
+      "close-modal": function($event) {
         _vm.showModal = false
       }
     }
-  }), _vm._v(" "), _c('div', {
-    staticClass: "modal-card"
   }, [_c('portfolio-item', {
     attrs: {
       "item": _vm.featuredItem
     }
-  })], 1), _vm._v(" "), _c('button', {
-    staticClass: "modal-close",
-    on: {
-      "click": function($event) {
-        _vm.showModal = false
-      }
-    }
-  })])])
+  })], 1)], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -28922,6 +28921,113 @@ module.exports = function(module) {
 __webpack_require__(9);
 module.exports = __webpack_require__(10);
 
+
+/***/ }),
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+
+  props: ['showModal']
+
+});
+
+/***/ }),
+/* 45 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(7)(
+  /* script */
+  __webpack_require__(44),
+  /* template */
+  __webpack_require__(46),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/jaydeluca/code/EricSilva/ECDesignsV2/resources/assets/js/components/Modal.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] Modal.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-130b3142", Component.options)
+  } else {
+    hotAPI.reload("data-v-130b3142", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "modal",
+    class: {
+      'is-active': _vm.showModal
+    }
+  }, [_c('div', {
+    staticClass: "modal-background",
+    on: {
+      "click": function($event) {
+        _vm.$emit('close-modal')
+      }
+    }
+  }), _vm._v(" "), _c('div', {
+    staticClass: "modal-card"
+  }, [_c('section', {
+    staticClass: "modal-card-body portfolio-modal"
+  }, [_c('div', {
+    staticClass: "portfolio-asset"
+  }, [_vm._t("default")], 2)])]), _vm._v(" "), _c('button', {
+    staticClass: "modal-close",
+    on: {
+      "click": function($event) {
+        _vm.$emit('close-modal')
+      }
+    }
+  })])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-130b3142", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

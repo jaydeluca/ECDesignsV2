@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -16,7 +15,31 @@ window.Vue = require('vue');
  */
 
 Vue.component('portfolio', require('./components/Portfolio.vue'));
+Vue.component('modal', require('./components/Modal.vue'));
 
 const app = new Vue({
-    el: '#app'
+
+  el: '#app',
+
+  data() {
+    return {
+      showModal: false,
+      portfolioURL: ''
+    }
+  },
+
+  methods: {
+
+    closeModal() {
+      this.showModal = false
+    },
+
+    homePageModal(imageUrl) {
+      this.showModal = true;
+      this.portfolioURL = imageUrl;
+    }
+
+  }
+
+
 });

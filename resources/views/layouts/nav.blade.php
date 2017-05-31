@@ -5,7 +5,7 @@
 
     <div class="nav-section nav-center">
         <a class="nav-item logo" href="/">
-            <img src="{{ asset('images/v1/1.3-logo.png') }}">
+            <img src="{{ asset('images/svgs/logo.svg') }}">
         </a>
     </div>
 

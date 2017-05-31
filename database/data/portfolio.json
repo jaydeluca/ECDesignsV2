@@ -1,80 +1,80 @@
 [
   {
     "name": "Guinness Advertisement",
-    "thumbnail": "images/v3/Thumbnails/1-t-guinness.jpg",
-    "image": "images/v3/1-guinness.jpg"
+    "thumbnail": "images/portfolio/thumbnails/1-t-guinness.jpg",
+    "image": "images/portfolio/1-guinness.jpg"
   },
   {
     "name": "Veridium Ad Piece",
-    "thumbnail": "images/v3/Thumbnails/2-t-veridium.jpg",
-    "image": "images/v3/2-veridium.jpg"
+    "thumbnail": "images/portfolio/thumbnails/2-t-veridium.jpg",
+    "image": "images/portfolio/2-veridium.jpg"
   },
   {
     "name": "4 Fingers",
-    "thumbnail": "images/v3/Thumbnails/3-t-4fingers.jpg",
-    "image": "images/v3/3-4fingers.jpg"
+    "thumbnail": "images/portfolio/thumbnails/3-t-4fingers.jpg",
+    "image": "images/portfolio/3-4fingers.jpg"
   },
   {
     "name": "Global Money",
-    "thumbnail": "images/v3/Thumbnails/4-t-global-money.jpg",
+    "thumbnail": "images/portfolio/thumbnails/4-t-global-money.jpg",
     "type": "video",
     "url": "https://player.vimeo.com/video/217507427"
   },
   {
     "name": "Faces",
-    "thumbnail": "images/v3/Thumbnails/5-t-faces.jpg",
-    "image": "images/v3/5-faces.jpg"
+    "thumbnail": "images/portfolio/thumbnails/5-t-faces.jpg",
+    "image": "images/portfolio/5-faces.jpg"
   },
   {
     "name": "Belichick",
-    "thumbnail": "images/v3/Thumbnails/6-t-belichick.jpg",
-    "image": "images/v3/6-belichick.jpg"
+    "thumbnail": "images/portfolio/thumbnails/6-t-belichick.jpg",
+    "image": "images/portfolio/6-belichick.jpg"
   },
   {
     "name": "Windex",
-    "thumbnail": "images/v3/Thumbnails/7-t-windex.jpg",
-    "image": "images/v3/7-windex.jpg"
+    "thumbnail": "images/portfolio/thumbnails/7-t-windex.jpg",
+    "image": "images/portfolio/7-windex.jpg"
   },
   {
     "name": "LWN",
-    "thumbnail": "images/v3/Thumbnails/8-t-lwn.jpg",
-    "image": "images/v3/8-lwn.jpg"
+    "thumbnail": "images/portfolio/thumbnails/8-t-lwn.jpg",
+    "image": "images/portfolio/8-lwn.jpg"
   },
   {
     "name": "Barstool",
-    "thumbnail": "images/v3/Thumbnails/9-t-barstool.jpg",
-    "image": "images/v3/9-barstool.jpg"
+    "thumbnail": "images/portfolio/thumbnails/9-t-barstool.jpg",
+    "image": "images/portfolio/9-barstool.jpg"
   },
   {
     "name": "Patriots",
-    "thumbnail": "images/v3/Thumbnails/10-t-patriots.jpg",
-    "image": "images/v3/10-patriots.jpg"
+    "thumbnail": "images/portfolio/thumbnails/10-t-patriots.jpg",
+    "image": "images/portfolio/10-patriots.jpg"
   },
   {
     "name": "Atlas",
-    "thumbnail": "images/v3/Thumbnails/11-t-atlas.jpg",
+    "thumbnail": "images/portfolio/thumbnails/11-t-atlas.jpg",
     "type": "video",
     "url": "https://player.vimeo.com/video/217507256"
   },
   {
     "name": "DigDat",
-    "thumbnail": "images/v3/Thumbnails/12-t-digdat.jpg",
-    "image": "images/v3/12-digdat.jpg",
+    "thumbnail": "images/portfolio/thumbnails/12-t-digdat.jpg",
+    "image": "images/portfolio/12-digdat.jpg",
     "description": "Open Source online survey system project."
   },
   {
     "name": "Opiates Infographic",
-    "thumbnail": "images/v3/Thumbnails/13-t-opiates.jpg",
-    "image": "images/v3/13-opiates.jpg"
+    "thumbnail": "images/portfolio/thumbnails/13-t-opiates.jpg",
+    "image": "images/portfolio/13-opiates.jpg"
   },
   {
     "name": "Elasticare",
-    "thumbnail": "images/v3/Thumbnails/14-t-elasticare.jpg",
-    "image": "images/v3/14-elasticare.jpg"
+    "thumbnail": "images/portfolio/thumbnails/14-t-elasticare.jpg",
+    "image": "images/portfolio/14-elasticare.jpg"
   },
   {
     "name": "Truck Day",
-    "thumbnail": "images/v3/Thumbnails/15-t-truck-day.jpg",
-    "image": "images/v3/15-truck-day.jpg"
+    "thumbnail": "images/portfolio/thumbnails/15-t-truck-day.jpg",
+    "image": "images/portfolio/15-truck-day.jpg"
   }
 ]

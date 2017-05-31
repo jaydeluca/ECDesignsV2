@@ -14,13 +14,9 @@
             </div>
         </section>
 
-        <div class="modal" :class="{ 'is-active': showModal }">
-            <div class="modal-background" @click="showModal = false"></div>
-            <div class="modal-card">
-                <portfolio-item :item="featuredItem"></portfolio-item>
-            </div>
-            <button class="modal-close" @click="showModal = false"></button>
-        </div>
+        <modal :show-modal="showModal" @close-modal="showModal=false">
+            <portfolio-item :item="featuredItem"></portfolio-item>
+        </modal>
 
     </div>
 
@@ -42,7 +38,8 @@
       },
 
       components: {
-        'portfolio-item': require('./PortfolioItem.vue')
+        'portfolio-item': require('./PortfolioItem.vue'),
+        'modal': require('./Modal.vue')
       },
 
       created() {

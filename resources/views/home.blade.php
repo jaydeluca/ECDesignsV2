@@ -14,10 +14,6 @@
                 </a>
             </div>
 
-            <div class="div-1--bottom">
-                <a class="header-text alt-text" href="#contact">Contact</a>
-            </div>
-
         </div>
 
 

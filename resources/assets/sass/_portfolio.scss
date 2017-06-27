@@ -32,16 +32,17 @@ $breakpoint: 900px;
   }
 
   .portfolio-asset {
-    //padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
 
     img {
-      max-height: 90%;
+      max-height: 95vh;
     }
     @media (max-width: $breakpoint) {
       padding: 10px;
     }
-    flex: 2;
-
   }
 
   .portfolio-meta {

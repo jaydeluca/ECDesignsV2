@@ -7,16 +7,12 @@
         @include('layouts.nav')
 
         <div class="div-1--content">
-
             <div class="div-1--main">
                 <a class="c-btn c-btn-ctr" href="/portfolio">
                     View Full Portfolio
                 </a>
             </div>
-
         </div>
-
-
     </div>
 
     <div class="section div-2">
@@ -69,9 +65,7 @@
     </div>
 
     <modal :show-modal="showModal" @close-modal="closeModal">
-        <div>
-            <img :src="portfolioURL">
-        </div>
+        <img :src="portfolioURL">
     </modal>
 
 </div>

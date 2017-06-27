@@ -25,7 +25,7 @@
                 Guinness<br>
                 By The Numbers
             </p>
-            <a class="c-btn" @click="homePageModal('http://ec2.dev/images/portfolio/1-guinness.jpg')">
+            <a class="c-btn" @click="homePageModal('/images/portfolio/1-guinness.jpg')">
                 View Infographic
             </a>
         </div>
@@ -36,7 +36,7 @@
             <p>
                 Veridium
             </p>
-            <a class="c-btn" @click="homePageModal('http://ec2.dev/images/portfolio/2-veridium.jpg')">
+            <a class="c-btn" @click="homePageModal('/images/portfolio/2-veridium.jpg')">
                 View Branding
             </a>
         </div>
@@ -48,7 +48,7 @@
                 Belichick's Patriots<br>
                 VS. The NFL
             </p>
-            <a class="c-btn" @click="homePageModal('http://ec2.dev/images/portfolio/6-belichick.jpg')">
+            <a class="c-btn" @click="homePageModal('/images/portfolio/6-belichick.jpg')">
                 View Infographic
             </a>
         </div>
@@ -75,43 +75,4 @@
     </modal>
 
 </div>
-<script>
-//  $(document).ready(function() {
-//    $('#fullpage').fullpage({
-//      //Scrolling
-////      css3: true,
-////      scrollingSpeed: 700,
-//      autoScrolling: true,
-//      fitToSection: true,
-//      fitToSectionDelay: 1000,
-//      scrollBar: false,
-////      easing: 'easeInOutCubic',
-////      easingcss3: 'ease',
-//      loopBottom: false,
-//      loopTop: false,
-//      loopHorizontal: true,
-//      continuousVertical: false,
-//      continuousHorizontal: false,
-//      scrollHorizontally: false,
-//      interlockedSlides: false,
-//      dragAndMove: false,
-//      offsetSections: false,
-//      resetSliders: false,
-//      fadingEffect: false,
-//      normalScrollElements: '#element1, .element2',
-//      scrollOverflow: false,
-//      scrollOverflowReset: false,
-//      scrollOverflowOptions: null,
-//      touchSensitivity: 15,
-//      normalScrollElementTouchThreshold: 5,
-//
-//      //Accessibility
-//      keyboardScrolling: true,
-//
-//      //Design
-//      controlArrows: true,
-////      parallax: true,
-//    });
-//  });
-</script>
 @include('layouts.footer')

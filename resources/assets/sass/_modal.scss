@@ -1,3 +1,11 @@
 .model-card-body, .portfolio-modal {
   background: transparent;
 }
+
+@media screen and (min-width: 769px) {
+  .modal-content, .modal-card {
+    margin: 0 auto;
+    max-height: calc(100vh - 40px);
+    width: 900px;
+  }
+}

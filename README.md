@@ -1,5 +1,7 @@
 # ECDesignsV2
 
+[See the Site Live](https://ericsilvadesign.com)  
+
 New Portfolio site, built with
 
 - Laravel 

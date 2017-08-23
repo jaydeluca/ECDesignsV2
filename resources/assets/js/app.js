@@ -18,7 +18,6 @@ Vue.component('portfolio', require('./components/Portfolio.vue'));
 Vue.component('modal', require('./components/Modal.vue'));
 
 const app = new Vue({
-
   el: '#app',
 
   data() {
@@ -29,7 +28,6 @@ const app = new Vue({
   },
 
   methods: {
-
     closeModal() {
       this.showModal = false
     },
@@ -38,8 +36,5 @@ const app = new Vue({
       this.showModal = true;
       this.portfolioURL = imageUrl;
     }
-
   }
-
-
 });

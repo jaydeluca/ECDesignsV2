@@ -1,5 +1,4 @@
 <template>
-
     <div class="modal" :class="{ 'is-active': showModal }">
         <div class="modal-background" @click="$emit('close-modal')"></div>
         <div class="modal-card">
@@ -11,15 +10,10 @@
         </div>
         <button class="modal-close" @click="$emit('close-modal')"></button>
     </div>
-
 </template>
 
 <script>
-
-    export default {
-
-      props: ['showModal']
-
-    }
-
+  export default {
+    props: ['showModal']
+  }
 </script>

@@ -135,9 +135,8 @@ $breakpoint: 800px;
     }
   }
 
-  // Veridium
-  .div-3 {
-    @include backgroundInfo('/images/veridium-min.jpg');
+  .matchcut {
+    @include backgroundInfo('/images/matchcut-bg.jpg');
 
     @media (max-width: $breakpoint) {
       background-position-x: -236px;
@@ -151,7 +150,7 @@ $breakpoint: 800px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
+      align-items: flex-end;
       height: 65%;
       padding-left: 150px;
 
@@ -175,9 +174,8 @@ $breakpoint: 800px;
     }
   }
 
-  // Belichick
-  .div-4 {
-    @include backgroundInfo('/images/belichick-min.jpg');
+  .symphony {
+    @include backgroundInfo('/images/symphony-bg.jpg');
     display: flex;
     justify-content: center;
     flex-direction: column;

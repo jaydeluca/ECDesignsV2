@@ -5,9 +5,9 @@
     "image": "images/portfolio/1-guinness.jpg"
   },
   {
-    "name": "Veridium Ad Piece",
-    "thumbnail": "images/portfolio/thumbnails/2-t-veridium.jpg",
-    "image": "images/portfolio/2-veridium.jpg"
+    "name": "Symphony",
+    "thumbnail": "images/portfolio/thumbnails/symphony-t.png",
+    "image": "images/portfolio/symphony-i.jpg"
   },
   {
     "name": "4 Fingers",
@@ -21,14 +21,19 @@
     "url": "https://player.vimeo.com/video/217507427"
   },
   {
-    "name": "Faces",
+    "name": "BDC Faces",
     "thumbnail": "images/portfolio/thumbnails/5-t-faces.jpg",
     "image": "images/portfolio/5-faces.jpg"
   },
   {
-    "name": "Belichick",
-    "thumbnail": "images/portfolio/thumbnails/6-t-belichick.jpg",
-    "image": "images/portfolio/6-belichick.jpg"
+    "name": "Match Cut",
+    "thumbnail": "images/portfolio/thumbnails/matchcut-t.jpg",
+    "image": "images/portfolio/matchcut-i.jpg"
+  },
+  {
+    "name": "Veridium Ad Piece",
+    "thumbnail": "images/portfolio/thumbnails/2-t-veridium.jpg",
+    "image": "images/portfolio/2-veridium.jpg"
   },
   {
     "name": "Windex",
@@ -36,9 +41,9 @@
     "image": "images/portfolio/7-windex.jpg"
   },
   {
-    "name": "LWN",
-    "thumbnail": "images/portfolio/thumbnails/8-t-lwn.jpg",
-    "image": "images/portfolio/8-lwn.jpg"
+    "name": "Belichick",
+    "thumbnail": "images/portfolio/thumbnails/6-t-belichick.jpg",
+    "image": "images/portfolio/6-belichick.jpg"
   },
   {
     "name": "Barstool",
@@ -46,9 +51,9 @@
     "image": "images/portfolio/9-barstool.jpg"
   },
   {
-    "name": "Patriots",
-    "thumbnail": "images/portfolio/thumbnails/10-t-patriots.jpg",
-    "image": "images/portfolio/10-patriots.jpg"
+    "name": "LWN",
+    "thumbnail": "images/portfolio/thumbnails/8-t-lwn.jpg",
+    "image": "images/portfolio/8-lwn.jpg"
   },
   {
     "name": "Atlas",
@@ -57,20 +62,14 @@
     "url": "https://player.vimeo.com/video/217507256"
   },
   {
-    "name": "DigDat",
-    "thumbnail": "images/portfolio/thumbnails/12-t-digdat.jpg",
-    "image": "images/portfolio/12-digdat.jpg",
-    "description": "Open Source online survey system project."
-  },
-  {
     "name": "Opiates Infographic",
     "thumbnail": "images/portfolio/thumbnails/13-t-opiates.jpg",
     "image": "images/portfolio/13-opiates.jpg"
   },
   {
-    "name": "Elasticare",
-    "thumbnail": "images/portfolio/thumbnails/14-t-elasticare.jpg",
-    "image": "images/portfolio/14-elasticare.jpg"
+    "name": "Patriots",
+    "thumbnail": "images/portfolio/thumbnails/10-t-patriots.jpg",
+    "image": "images/portfolio/10-patriots.jpg"
   },
   {
     "name": "Truck Day",

@@ -879,7 +879,6 @@ Vue.component('portfolio', __webpack_require__(36));
 Vue.component('modal', __webpack_require__(8));
 
 var app = new Vue({
-
   el: '#app',
 
   data: function data() {
@@ -899,7 +898,6 @@ var app = new Vue({
       this.portfolioURL = imageUrl;
     }
   }
-
 });
 
 /***/ }),
@@ -1769,14 +1767,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-
   props: ['showModal']
-
 });
 
 /***/ }),
@@ -1803,16 +1796,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-
   name: 'Portfolio',
 
   data: function data() {
@@ -1846,7 +1831,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       this.showModal = true;
     }
   }
-
 });
 
 /***/ }),
@@ -1871,15 +1855,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-
   name: 'PortfolioItem',
-
   props: ['item']
-
 });
 
 /***/ }),

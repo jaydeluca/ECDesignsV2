@@ -15,6 +15,28 @@
         </div>
     </div>
 
+    <div class="section symphony">
+        <div class="symphony--content">
+            <p>
+                SYMPHONY
+            </p>
+            <a class="c-btn" @click="homePageModal('/images/portfolio/symphony-i.jpg')">
+                View Branding
+            </a>
+        </div>
+    </div>
+
+    <div class="section matchcut">
+        <div class="matchcut--content">
+            <p>
+                MATCH-CUT ADS
+            </p>
+            <a class="c-btn" @click="homePageModal('/images/portfolio/2-veridium.jpg')">
+                View Campaign
+            </a>
+        </div>
+    </div>
+
     <div class="section div-2">
         <div class="div-2--content">
             <p>
@@ -22,29 +44,6 @@
                 By The Numbers
             </p>
             <a class="c-btn" @click="homePageModal('/images/portfolio/1-guinness.jpg')">
-                View Infographic
-            </a>
-        </div>
-    </div>
-
-    <div class="section div-3">
-        <div class="div-3--content">
-            <p>
-                Veridium
-            </p>
-            <a class="c-btn" @click="homePageModal('/images/portfolio/2-veridium.jpg')">
-                View Branding
-            </a>
-        </div>
-    </div>
-
-    <div class="section div-4">
-        <div class="div-4--content">
-            <p>
-                Belichick's Patriots<br>
-                VS. The NFL
-            </p>
-            <a class="c-btn" @click="homePageModal('/images/portfolio/6-belichick.jpg')">
                 View Infographic
             </a>
         </div>

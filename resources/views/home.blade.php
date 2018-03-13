@@ -15,6 +15,17 @@
         </div>
     </div>
 
+    <div class="section matchcut">
+        <div class="matchcut--content">
+            <p>
+                MATCH-CUT ADS
+            </p>
+            <a class="c-btn" @click="homePageModal('/images/portfolio/matchcut-i.jpg')">
+                View Campaign
+            </a>
+        </div>
+    </div>
+
     <div class="section symphony">
         <div class="symphony--content">
             <p>
@@ -26,16 +37,6 @@
         </div>
     </div>
 
-    <div class="section matchcut">
-        <div class="matchcut--content">
-            <p>
-                MATCH-CUT ADS
-            </p>
-            <a class="c-btn" @click="homePageModal('/images/portfolio/matchcut-i.jpg')">
-                View Campaign
-            </a>
-        </div>
-    </div>
 
     <div class="section div-2">
         <div class="div-2--content">

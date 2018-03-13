@@ -152,11 +152,11 @@ $breakpoint: 800px;
       justify-content: center;
       align-items: flex-end;
       height: 65%;
-      padding-left: 150px;
+      padding-right: 150px;
 
 
       @media (max-width: $breakpoint) {
-        padding-left: 0;
+        padding-right: 0;
         align-items: center;
       }
 
@@ -188,12 +188,12 @@ $breakpoint: 800px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-end;
+      align-items: flex-start;
       height: 65%;
-      padding-right: 75px;
+      padding-left: 75px;
 
       @media (max-width: $breakpoint) {
-        padding-right: 0;
+        padding-left: 0;
         align-items: center;
       }
 

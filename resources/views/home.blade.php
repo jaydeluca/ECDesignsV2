@@ -31,7 +31,7 @@
             <p>
                 MATCH-CUT ADS
             </p>
-            <a class="c-btn" @click="homePageModal('/images/portfolio/2-veridium.jpg')">
+            <a class="c-btn" @click="homePageModal('/images/portfolio/matchcut-i.jpg')">
                 View Campaign
             </a>
         </div>
